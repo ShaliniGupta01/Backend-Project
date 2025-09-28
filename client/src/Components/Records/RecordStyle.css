@@ -1,0 +1,36 @@
+.record {
+  background-color: white;
+  width: 700px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.record h1 {
+  color: var(--primary);
+}
+
+.record .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.record .btns img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}

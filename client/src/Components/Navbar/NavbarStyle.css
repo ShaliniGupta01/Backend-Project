@@ -1,0 +1,42 @@
+nav {
+  height: 10vh;
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 300px;
+  background-color: white;
+}
+
+nav a {
+  color: black;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+nav .logout button {
+  border: 2px solid var(--primary);
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 5px;
+  color: var(--primary);
+  padding: 8px 30px;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+nav .logout span {
+  margin-right: 10px;
+}
+
+nav .auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+nav .auth a {
+  color: black;
+  font-size: 20px;
+}
