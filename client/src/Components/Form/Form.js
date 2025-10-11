@@ -32,7 +32,7 @@ const Form = () => {
     e.preventDefault();
 
     const response = await axios.post(
-      "http://localhost:4000/api/workouts",
+      "https://workoutbuddy-k9jt.onrender.com/api/workouts",
       form,
       {
         headers: {
@@ -61,7 +61,7 @@ const Form = () => {
     const { _id, title, reps, load } = updateForm;
 
     await axios.patch(
-      `http://localhost:4000/api/workouts/${_id}`,
+      `https://workoutbuddy-k9jt.onrender.com/api/workouts/${_id}`,
       {
         title,
         reps,
