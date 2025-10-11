@@ -14,7 +14,7 @@ const WorkoutContext = ({ children }) => {
   const getWorkouts = async () => {
     if (!user) return; // stop if no logged-in user
     try {
-      const response = await axios.get("http://localhost:4000/api/workouts", {
+      const response = await axios.get("https://workoutbuddy-k9jt.onrender.com/api/workouts", {
         headers: { Authorization: `Bearer ${user.token}` },
       });
       setWorkouts(response.data);
@@ -34,7 +34,7 @@ const WorkoutContext = ({ children }) => {
   const deleteWorkout = async (_id) => {
     if (!user) return; // stop if no logged-in user
     try {
-      await axios.delete(`http://localhost:4000/api/workouts/${_id}`, {
+      await axios.delete(`https://workoutbuddy-k9jt.onrender.com/api/workouts/${_id}`, {
         headers: { Authorization: `Bearer ${user.token}` },
       });
       getWorkouts(); // refresh after delete
