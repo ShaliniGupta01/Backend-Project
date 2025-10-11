@@ -19,7 +19,7 @@ export const useLogin = () => {
 
     if (!response.ok) {
       setError(data.error);
-    }
+    };
 
     if (response.ok) {
       // save user data in local storage
