@@ -10,7 +10,7 @@ export const useLogin = () => {
  const login = async (email, password) => {
     setError(null);
 
-    const response = await fetch("http://localhost:4000/api/user/login", {
+    const response = await fetch("https://workoutbuddy-k9jt.onrender.com/api/user/login", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({ email, password }),  
