@@ -1,7 +1,30 @@
-.footer {
+footer {
   color: #717070;
   text-align: center;
-  padding: 10rem;
-  margin-top: 2rem;
- 
+  padding: 4rem 2rem;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* === Responsive Footer === */
+@media (max-width: 1024px) {
+  footer {
+    padding: 3rem 1.5rem;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 2rem 1rem;
+    font-size: 14.5px;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    padding: 1.5rem 0.8rem;
+    font-size: 14px;
+    line-height: 1.4;
+  }
 }

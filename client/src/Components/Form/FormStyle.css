@@ -64,5 +64,30 @@
     border-radius: 5px;
 } 
 
+@media (max-width: 768px) {
+  /* === Form === */
+  .form {
+    width: 90%;
+    padding: 25px 15px;
+  }
 
+  .form h1 {
+    font-size: 24px;
+    text-align: center;
+  }
 
+  .form form {
+    gap: 15px;
+  }
+
+  .form input {
+    font-size: 15px;
+    padding: 8px;
+  }
+
+  .form button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+}

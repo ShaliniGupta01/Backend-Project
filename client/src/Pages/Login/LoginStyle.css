@@ -62,3 +62,39 @@
 .main-form button:hover {
     transform: scale(1.05);
 }
+
+
+@media (max-width: 768px) {
+
+    .main-form {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .main-form form {
+    width: 90%;
+    padding: 25px 20px;
+    gap: 15px;
+  }
+
+  .main-form form h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .main-form input {
+    padding: 8px;
+    font-size: 15px;
+  }
+
+  .main-form button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .account-link {
+    font-size: 14px;
+    text-align: center;
+  }
+
+}

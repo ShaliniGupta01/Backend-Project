@@ -39,3 +39,29 @@ nav .auth a {
   color: black;
   font-size: 20px;
 }
+
+@media (max-width: 768px) {
+
+    nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 15px 0;
+    gap: 10px;
+  }
+
+  nav a {
+    font-size: 18px;
+  }
+
+  nav .auth {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  nav .logout button {
+    padding: 6px 20px;
+    font-size: 15px;
+  }
+}
